@@ -51,7 +51,6 @@ class Menu extends Phaser.Scene {
     }
 
     update(){
-        this.backdrop.tilePositionX -= 6;
-
+        this.backdrop.tilePositionX += 6;
     }
 }
