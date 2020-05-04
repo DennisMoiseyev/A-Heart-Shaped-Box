@@ -1,5 +1,11 @@
 //Configure game to browser and include menu and play core scenes
-//test
+
+// Collaborators: Jake Nguyen, Dennis Moiseyev. Simon Lemay
+// A Heart Shaped Box
+// Date Completed: 5/3/2020
+// Creative tilt justification: The randomization mechanic was one that we were particularly proud of as it uses a random number generator to test whether or not it can send the obstacle
+// Also, the art style, music, and story all fit an ominous and creepy theme that we were going for
+
 let config = {
 
     type: Phaser.AUTO,
