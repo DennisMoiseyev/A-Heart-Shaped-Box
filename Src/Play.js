@@ -131,6 +131,9 @@ class Play extends Phaser.Scene {
                 this.obstacle.y = Math.random() * (650 - 75) + 75;
            }
         }
+        //Have Craddock follow Jude for a creepy gameplay effect along y
+        this.enemy.y= this.jude.y;
+
         //move Craddock by 4 along his x-axis when Jude collides with a heart
         if(this.physics.collide(this.jude, this.obstacle)){
             this.enemy.x +=4;
