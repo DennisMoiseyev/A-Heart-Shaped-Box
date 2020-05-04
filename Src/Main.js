@@ -5,7 +5,12 @@ A Heart-Shaped Box (Based on the novel by Joe Hill)
 Date Completed: 5/3/2020
 Creative tilt justification: The randomization mechanic was one that we were particularly proud of as it uses a random number generator to test whether or not it can send the obstacle along the y-axis.
 Another element that we're proud of is programming the mechanic of the enemy moving closer to the player upon collision with obstacles. 
-Also, the art style, music, and narrative all fit an ominous and creepy aesthetic that we were going for. 
+Also, our own unique art style, music, and narrative all fit an ominous and creepy aesthetic that we were going for. 
+Sounds and music downloaded Copyright Free from freesounds.org
+Copyright free time-lapse video in loading screen downloaded from Youtube
+Time increment function and Game Over Scene Implemented from Prof. Nathan Altice's github
+https://github.com/nathanaltice/PaddleParkourP3/blob/master/src/scenes/GameOver.js
+Additional thanks to Nathan Altice's 'Movement Studies' example for reference
  */
 let config = {
 
