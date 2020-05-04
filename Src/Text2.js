@@ -4,6 +4,7 @@ class Text2 extends Phaser.Scene {
     }
 
     create(){
+        //Add the second part of the story text, wrap it to width, and configure background music
 
         this.add.text(centerX, 230, "A malevolent spirit soon began haunting Jude in his home, an old man with deep black holes in his eyes donning that exact suit Jude had purchased. The ghost was that of Craddock McDermott, the priestly hypnotherapist father of Jude’s ex girlfriend, Anna McDermott, whom he always liked to call Florida. Jude began to believe the haunting was retribution for Anna’s suicide which he always blamed himself for and guessed that Craddock did too, since she killed herself the day he sent her packing back home.", {fontFamily: "Times New Roman", fontSize: "32px", color: "#FFFFFF", wordWrap: { width: 600 }}).setOrigin(0.5);
 

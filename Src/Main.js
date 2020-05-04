@@ -1,5 +1,12 @@
-//Configure game to browser and include menu and play core scenes
-//test
+/*
+CMPM120 UCSC 2020
+Collaborators: Simon Lemay, Dennis Moiseyev, and Jake Nguyen. (Copyright SJD L.L.C.)
+A Heart-Shaped Box (Based on the novel by Joe Hill)
+Date Completed: 5/3/2020
+Creative tilt justification: The randomization mechanic was one that we were particularly proud of as it uses a random number generator to test whether or not it can send the obstacle along the y-axis.
+Another element that we're proud of is programming the mechanic of the enemy moving closer to the player upon collision with obstacles. 
+Also, the art style, music, and narrative all fit an ominous and creepy aesthetic that we were going for. 
+ */
 let config = {
 
     type: Phaser.AUTO,
@@ -31,3 +38,4 @@ let highScore;
 let newHighScore= false;
 
 let cursors;
+
