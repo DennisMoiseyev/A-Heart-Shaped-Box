@@ -35,9 +35,9 @@ class Play extends Phaser.Scene {
 
         this.jude = this.physics.add.sprite(game.config.width/2, game.config.height/2, 'jude_atlas', 'Jude1');
 
-        this.obstacle = this.physics.add.sprite(game.config.width+3700, game.config.height/2 + 100, 'heart');
+        this.obstacle = this.physics.add.sprite(game.config.width+4200, game.config.height/2 + 100, 'heart');
 
-        this.instructions= this.add.text(centerX, 160, "Dodge Hearts with Up Down Arrows", {fontFamily: "Times New Roman", fontSize: "45px", color: "#FF0000"}).setOrigin(0.5);
+        this.instructions= this.add.text(680, 160, "Dodge Hearts with Up Down Arrows", {fontFamily: "Times New Roman", fontSize: "45px", color: "#FF0000"}).setOrigin(0.5);
 
         this.moon = this.add.image(660, 30, "moon").setScale(0.5, 0.5);
 
